@@ -1,0 +1,34 @@
+.container-pesquisa{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+}
+
+.container-pesquisa > input {
+    border-style: none;
+    text-align: center;
+    font-weight: 900;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 40px;
+    height: 70%;
+    width: 900px;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 85px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #AFC2FF;
+}
+.button-container > mat-icon {
+    height: auto;
+    width: auto;
+    font-size: 50px;
+}
