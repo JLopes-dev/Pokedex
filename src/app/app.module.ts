@@ -7,18 +7,22 @@ import { BarraPesquisaComponent } from './components/barra-pesquisa/barra-pesqui
 import { LogoComponent } from './components/logo/logo.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
+import { PokemonItemComponent } from './components/pokemon-item/pokemon-item.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
     BarraPesquisaComponent,
-    LogoComponent
+    LogoComponent,
+    PokemonItemComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatIconModule
+    MatIconModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
